@@ -1,0 +1,33 @@
+.mainan{
+  width: 100vw;
+  height: 4rem;
+  background-color: bisque;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainn{
+  background-color: blueviolet;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 6px;
+  display: flex;
+}
+
+.mainn:hover{
+  background-color: #3e1465; 
+}
+
+.warna{
+  color: red;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.color:hover{
+  color: rgb(50, 73, 93);
+}
