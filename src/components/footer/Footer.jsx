@@ -1,5 +1,5 @@
-import React from "react";
-import "./footer.css";
+import React from "react"
+import "./footer.css"
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-facebook"></i>
+            <i className="bx bxl-facebook"></i>
           </a>
 
           <a
@@ -43,7 +43,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-instagram"></i>
+            <i className="bx bxl-instagram"></i>
           </a>
 
           <a
@@ -52,7 +52,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="bx bxl-twitter"></i>
+            <i className="bx bxl-twitter"></i>
           </a>
         </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
         </span>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

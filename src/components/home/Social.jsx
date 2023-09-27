@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Social = () => {
   return (
@@ -9,7 +9,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-instagram"></i>
+        <i className="uil uil-instagram"></i>
       </a>
 
       <a
@@ -18,7 +18,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-telegram-alt"></i>
+        <i className="uil uil-telegram-alt"></i>
       </a>
 
       <a
@@ -27,10 +27,10 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default Social;
+export default Social
