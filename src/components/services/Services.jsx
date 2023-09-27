@@ -1,14 +1,14 @@
-import React from "react";
-import "./services.css";
-import { useState } from "react";
+import React from "react"
+import "./services.css"
+import { useState } from "react"
 
 const Services = () => {
-  const [toggleState, setToggleState] = useState(0);
+  const [toggleState, setToggleState] = useState(0)
   const toggleTab = (e) => {
-    setToggleState(e);
-  };
+    setToggleState(e)
+  }
   return (
-    <section className="services section">
+    <section id="services" className="services section">
       <h2 className="section__title">Services</h2>
       <p className="section__subtitle">What i offer</p>
 
@@ -23,7 +23,7 @@ const Services = () => {
           <span
             className="services__button"
             onClick={() => {
-              toggleTab(1);
+              toggleTab(1)
             }}
           >
             View More
@@ -39,7 +39,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => {
-                  toggleTab(0);
+                  toggleTab(0)
                 }}
                 className="ui uil-times services__modal-close"
               ></i>
@@ -99,7 +99,7 @@ const Services = () => {
           <span
             className="services__button"
             onClick={() => {
-              toggleTab(2);
+              toggleTab(2)
             }}
           >
             View More
@@ -116,7 +116,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => {
-                  toggleTab(0);
+                  toggleTab(0)
                 }}
                 className="ui uil-times services__modal-close"
               ></i>
@@ -176,7 +176,7 @@ const Services = () => {
           <span
             className="services__button"
             onClick={() => {
-              toggleTab(3);
+              toggleTab(3)
             }}
           >
             View More
@@ -193,7 +193,7 @@ const Services = () => {
             <div className="services__modal-content">
               <i
                 onClick={() => {
-                  toggleTab(0);
+                  toggleTab(0)
                 }}
                 className="ui uil-times services__modal-close"
               ></i>
@@ -243,7 +243,7 @@ const Services = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

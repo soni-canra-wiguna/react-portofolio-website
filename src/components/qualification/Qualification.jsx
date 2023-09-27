@@ -1,14 +1,14 @@
-import React from "react";
-import "./qualification.css";
-import { useState } from "react";
+import React from "react"
+import "./qualification.css"
+import { useState } from "react"
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(1)
   const toggleTab = (index) => {
-    setToggleState(index);
-  };
+    setToggleState(index)
+  }
   return (
-    <section className="qualification section">
+    <section id="qualification" className="qualification section">
       <h2 className="section__title">Qualification</h2>
       <p className="section__subtitle">My personel journey</p>
 
@@ -176,7 +176,7 @@ const Qualification = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Qualification;
+export default Qualification

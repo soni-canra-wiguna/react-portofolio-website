@@ -1,23 +1,23 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import "./contact.css";
+import React, { useRef } from "react"
+import emailjs from "@emailjs/browser"
+import "./contact.css"
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs.sendForm(
       "service_bj1i3tl",
       "template_1ilzw7l",
       form.current,
       "qJrZzRZlgY9EWaDHV"
-    );
-    e.target.reset();
-  };
+    )
+    e.target.reset()
+  }
   return (
-    <section className="contact section">
+    <section id="contact" className="contact section">
       <h2 className="section__title">Contact Me</h2>
       <p className="section__subtitle">Get In Touch</p>
 
@@ -108,7 +108,7 @@ const Contact = () => {
             <button className="button button-flex">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 id="svgMe"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -130,6 +130,6 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  );
-};
-export default Contact;
+  )
+}
+export default Contact
